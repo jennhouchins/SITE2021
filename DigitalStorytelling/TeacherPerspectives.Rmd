@@ -46,6 +46,10 @@ htmltools::tagList(
   rmarkdown::html_dependency_font_awesome()
 )
 ```
+```{r xaringan-extras, echo=FALSE}
+xaringanExtra::use_tile_view()
+
+```
 
 background-image: url(img/wested-vector-logo.png), url(img/ncstate-brick-2x1-red.png),  url(img/CEI_logo_Transparent_Dark3-1024x512.png)
 background-position: 5% 99%, 53% 90%, 95% 95%  
@@ -166,9 +170,16 @@ class: clear
 
 background-image: url(img/animation1.png)
 background-size: cover
+background-position: center
+
+--
+
+background-image: url(img/custom-narrative-blocks.png), url(img/animation1.png)
+background-size: 50%, cover
+background-position: 90% 20%, center
 
 ---
-#Results
+# Results
 .font130[Our team .red[**qualitatively coded the transcribed audio**] from the think-aloud environment experimentation and the focus group interview questions using .red[**three overarching themes**] aligned to our research questions:]
 <br/><br/><br/>
 --
@@ -271,8 +282,6 @@ class: inverse, middle, center, clear
 .pull-left[<img src="img/Teacher1and2_Blocks2.png" width="100%"/> ]
 .pull-right[<img src="img/Teacher1and2_Animation2.png" width="100%"/>]
 
-
-
 ---
 
 # Content Integration
@@ -298,12 +307,12 @@ class: inverse, middle, center, clear
 # Conclusions and Recommendations
 <br/>
 .font130[
-- Our narrative-centered offers .red[**great potential for engaging ELA, science, and CT learning**]
+- Our narrative-centered digital learning environment offers .red[**great potential for engaging ELA, science, and CT learning**]
 
-- We are iteratively refining with .red[**additional navigation and instructional supports**] as we garner feedback from teachers and students
+- We are iteratively refining the environment with .red[**additional navigation and instructional supports**] as we garner feedback from teachers and students
  - .red[**Science Content Explorer**] application
  
- - Design .red[**PD around CT concepts**] and how to teach them to students through the .red[**affordances of InfuseCS**] 
+ - Design .red[**PD around CT concepts**] and how to teach them to students through the .red[**affordances of our learning environment**] 
 ]
 ---
 
